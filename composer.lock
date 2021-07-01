@@ -4,41 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "21590169efa43b970cd7d478f3e84183",
+    "content-hash": "86edfa8b1ddbc6a672f51859359ed9c8",
     "packages": [
-        {
-            "name": "aimeos/map",
-            "version": "2.3.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/aimeos/map.git",
-                "reference": "d43c425f139f0707b926a3f638d6e02d4ddf6004"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/aimeos/map/zipball/d43c425f139f0707b926a3f638d6e02d4ddf6004",
-                "reference": "d43c425f139f0707b926a3f638d6e02d4ddf6004"
-            },
-            "require": {
-                "php": "^7.1||^8.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Aimeos\\": "src/"
-                },
-                "files": [
-                    "src/function.php"
-                ],
-                "classmap": [
-                    "src/"
-                ]
-            },
-            "license": [
-                "MIT"
-            ],
-            "description": "Easy and elegant handling of PHP arrays as array-like map objects similar to jQuery and Laravel Collections"
-        },
         {
             "name": "asm89/stack-cors",
             "version": "v2.0.3",
@@ -2225,56 +2192,21 @@
             "description": "A PHP library for generating and working with universally unique identifiers (UUIDs)."
         },
         {
-            "name": "realodix/change-case",
-            "version": "v3.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/realodix/change-case.git",
-                "reference": "fb8fed73723b60d6fed0a720d720431e31b36d03"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/realodix/change-case/zipball/fb8fed73723b60d6fed0a720d720431e31b36d03",
-                "reference": "fb8fed73723b60d6fed0a720d720431e31b36d03"
-            },
-            "require": {
-                "php": "^7.4 || ^8.0",
-                "voku/portable-utf8": "^5.4"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-main": "3.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Realodix\\ChangeCase\\": "src"
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "description": "Convert strings between camelCase, PascalCase, Capital Case, snake_case and more."
-        },
-        {
             "name": "realodix/php-utility",
-            "version": "v2.0.2",
+            "version": "dev-slim",
             "source": {
                 "type": "git",
                 "url": "https://github.com/realodix/php-utility.git",
-                "reference": "e55b98250cd2ca894c351db000908bc191c40a5e"
+                "reference": "ab3a2ea866e312487702ffb10bf37be483d6c850"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/realodix/php-utility/zipball/e55b98250cd2ca894c351db000908bc191c40a5e",
-                "reference": "e55b98250cd2ca894c351db000908bc191c40a5e"
+                "url": "https://api.github.com/repos/realodix/php-utility/zipball/ab3a2ea866e312487702ffb10bf37be483d6c850",
+                "reference": "ab3a2ea866e312487702ffb10bf37be483d6c850"
             },
             "require": {
                 "nicebooks/isbn": "^0.2.91",
                 "php": "^7.4|^8.0",
-                "realodix/change-case": "^3.0",
-                "realodix/readtime": "^1.0",
                 "spatie/url": "^1.0|^2.0"
             },
             "type": "library",
@@ -2295,39 +2227,6 @@
                 "MIT"
             ],
             "description": "Collection of various PHP utility functions"
-        },
-        {
-            "name": "realodix/readtime",
-            "version": "v1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/realodix/readtime.git",
-                "reference": "839bfeafbade7ccf6a766c4139de5f3f61e3bb2e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/realodix/readtime/zipball/839bfeafbade7ccf6a766c4139de5f3f61e3bb2e",
-                "reference": "839bfeafbade7ccf6a766c4139de5f3f61e3bb2e"
-            },
-            "require": {
-                "aimeos/map": "^2.3",
-                "php": "^7.4|^8.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-main": "1.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Realodix\\ReadTime\\": "src/"
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "description": "Medium's like reading time estimation."
         },
         {
             "name": "spatie/laravel-permission",
@@ -3645,42 +3544,6 @@
                 "MIT"
             ],
             "description": "Portable ASCII library - performance optimized (ascii) string functions for php."
-        },
-        {
-            "name": "voku/portable-utf8",
-            "version": "5.4.51",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/voku/portable-utf8.git",
-                "reference": "578f5266725dc9880483d24ad0cfb39f8ce170f7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/voku/portable-utf8/zipball/578f5266725dc9880483d24ad0cfb39f8ce170f7",
-                "reference": "578f5266725dc9880483d24ad0cfb39f8ce170f7"
-            },
-            "require": {
-                "php": ">=7.0.0",
-                "symfony/polyfill-iconv": "~1.0",
-                "symfony/polyfill-intl-grapheme": "~1.0",
-                "symfony/polyfill-intl-normalizer": "~1.0",
-                "symfony/polyfill-mbstring": "~1.0",
-                "symfony/polyfill-php72": "~1.0",
-                "voku/portable-ascii": "~1.5.6"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "voku\\": "src/voku/"
-                },
-                "files": [
-                    "bootstrap.php"
-                ]
-            },
-            "license": [
-                "(Apache-2.0 or GPL-2.0)"
-            ],
-            "description": "Portable UTF-8 library - performance optimized (unicode) string functions for php."
         },
         {
             "name": "webmozart/assert",
@@ -6031,7 +5894,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "realodix/php-utility": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
