@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "08f48d4512b2b88597e03a9b6ee455c1",
+    "content-hash": "24f1e23f986c7e8346b23e16025f190f",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1513,33 +1513,6 @@
             "description": "An API extension for DateTime that supports 281 different languages."
         },
         {
-            "name": "nicebooks/isbn",
-            "version": "0.2.92",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/nicebooks-com/isbn.git",
-                "reference": "b4a76f35b5021786527311c6e1de554891fe0c5d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/nicebooks-com/isbn/zipball/b4a76f35b5021786527311c6e1de554891fe0c5d",
-                "reference": "b4a76f35b5021786527311c6e1de554891fe0c5d"
-            },
-            "require": {
-                "php": "^7.1 || ^8.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Nicebooks\\Isbn\\": "src/"
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "description": "ISBN tools"
-        },
-        {
             "name": "nikic/php-parser",
             "version": "v4.10.5",
             "source": {
@@ -2193,35 +2166,31 @@
         },
         {
             "name": "realodix/php-utility",
-            "version": "dev-rw",
+            "version": "dev-main",
             "source": {
                 "type": "git",
                 "url": "https://github.com/realodix/php-utility.git",
-                "reference": "50863d88e7d9d0f583c99faa7f5d05059cf8f495"
+                "reference": "20e219a331c084d9e98f37797c0b468cedcb9be4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/realodix/php-utility/zipball/50863d88e7d9d0f583c99faa7f5d05059cf8f495",
-                "reference": "50863d88e7d9d0f583c99faa7f5d05059cf8f495"
+                "url": "https://api.github.com/repos/realodix/php-utility/zipball/20e219a331c084d9e98f37797c0b468cedcb9be4",
+                "reference": "20e219a331c084d9e98f37797c0b468cedcb9be4"
             },
             "require": {
-                "nicebooks/isbn": "^0.2.91",
                 "php": "^7.4|^8.0",
                 "spatie/url": "^1.0|^2.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "2.x-dev"
+                    "dev-main": "3.x-dev"
                 }
             },
             "autoload": {
                 "psr-4": {
                     "Realodix\\Utils\\": "src/"
-                },
-                "files": [
-                    "src/Helper.php"
-                ]
+                }
             },
             "license": [
                 "MIT"
