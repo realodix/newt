@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "86edfa8b1ddbc6a672f51859359ed9c8",
+    "content-hash": "08f48d4512b2b88597e03a9b6ee455c1",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2193,16 +2193,16 @@
         },
         {
             "name": "realodix/php-utility",
-            "version": "dev-slim",
+            "version": "dev-rw",
             "source": {
                 "type": "git",
                 "url": "https://github.com/realodix/php-utility.git",
-                "reference": "ab3a2ea866e312487702ffb10bf37be483d6c850"
+                "reference": "50863d88e7d9d0f583c99faa7f5d05059cf8f495"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/realodix/php-utility/zipball/ab3a2ea866e312487702ffb10bf37be483d6c850",
-                "reference": "ab3a2ea866e312487702ffb10bf37be483d6c850"
+                "url": "https://api.github.com/repos/realodix/php-utility/zipball/50863d88e7d9d0f583c99faa7f5d05059cf8f495",
+                "reference": "50863d88e7d9d0f583c99faa7f5d05059cf8f495"
             },
             "require": {
                 "nicebooks/isbn": "^0.2.91",

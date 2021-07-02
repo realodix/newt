@@ -22,7 +22,7 @@
         "nyholm/psr7": "^1.4",
         "paragonie/random-lib": "^2.0",
         "paragonie/random_compat": "^2.0",
-        "realodix/php-utility": "dev-slim",
+        "realodix/php-utility": "dev-rw",
         "spatie/laravel-permission": "^4.2",
         "spatie/url": "^2.0",
         "tabuna/breadcrumbs": "^2.3",
